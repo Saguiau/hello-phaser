@@ -1,0 +1,1 @@
+(()=>{document.createElement("canvas").id="myCustomCanvas";var e={type:Phaser.CANVAS,width:1920,height:1080,canvas:document.getElementById("myCustomCanvas"),scene:{preload:function(){this.load.image("bg","assets/bgOne.png");for(let e=0;e<9;e++)this.load.image("mario"+e,"assets/mario"+e+".png")},create:function(){this.add.image(0,0,"bg").setScale(.5)}}};new Phaser.Game(e)})();
